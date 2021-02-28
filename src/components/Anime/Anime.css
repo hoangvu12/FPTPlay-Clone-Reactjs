@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.anime-item {
+  border: 0 !important;
+  background-color: transparent !important;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.anime-item:hover {
+  transform: scale(1.05);
+}
+
+.anime-item a {
+  text-decoration: none !important;
+}
+
+.anime-item .card-body {
+  background-color: #181818 !important;
+}
+
+.anime-item .anime-name {
+  font-family: "ROboto", Arial, Helvetica, sans-serif;
+  color: #fff !important;
+}
+
+.anime-item .anime-name:hover {
+  color: #ff6500 !important;
+  transition: 400ms;
+}

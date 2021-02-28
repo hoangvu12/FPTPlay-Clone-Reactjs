@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.chunk,
+.episode {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.chunk .nav-link.active,
+.chunk .nav-link:hover {
+  color: #ff6500 !important;
+  border-color: #ff6500 !important;
+}
+
+.chunk .nav-link {
+  color: #fff;
+  border-color: #6c757d;
+  background-color: transparent !important;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.chunk .nav-link:focus {
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+.episode {
+  background: #2d2d2d !important;
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.episode.active,
+.episode:hover {
+  color: #ff6500 !important;
+  transition: 400ms;
+}

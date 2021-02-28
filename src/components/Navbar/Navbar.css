@@ -1,0 +1,11 @@
+.nav-link {
+  text-decoration: none;
+  color: #fff !important;
+  min-width: max-content;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #ff6500 !important;
+  transition: 400ms;
+}
